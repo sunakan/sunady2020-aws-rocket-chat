@@ -51,6 +51,11 @@ rocketchat: network
     --entrypoint "/rocketchat/start.sh" \
     rocketchat/rocket.chat:${DOCKER_ROCKET_CHAT_TAG}
 
+up:
+	make mongo
+	make init-mongo
+	make rocketchat
+
 .PHONY: down
 down:
 	docker container ps --quiet --filter "name=mongo"             | xargs docker stop

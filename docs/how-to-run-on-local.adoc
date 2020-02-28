@@ -1,0 +1,30 @@
+== 実行方法と終了方法（Local）
+
+----
+$ make up
+...
+ちょっと時間がかかる
+...
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+➔ System ➔ startup
+➔ +----------------------------------------------+
+➔ |                SERVER RUNNING                |
+➔ +----------------------------------------------+
+➔ |                                              |
+➔ |  Rocket.Chat Version: 3.0.2                  |
+➔ |       NodeJS Version: 12.14.0 - x64          |
+➔ |      MongoDB Version: 4.2.3                  |
+➔ |       MongoDB Engine: wiredTiger             |
+➔ |             Platform: linux                  |
+➔ |         Process Port: 3000                   |
+➔ |             Site URL: http://localhost:3000  |
+➔ |     ReplicaSet OpLog: Enabled                |
+➔ |          Commit Hash: 05af21bbe9             |
+➔ |        Commit Branch: HEAD                   |
+➔ |                                              |
+➔ +----------------------------------------------+
+----
+
+----
+$ make down
+----

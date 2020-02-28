@@ -1,1 +1,3 @@
-== RocketChatのサンプル
+= RocketChatのサンプル
+
+include::./docs/how-to-run-on-local.adoc[]
